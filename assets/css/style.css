@@ -1,0 +1,25 @@
+section.hero_banner{
+    background-image: url(../images/Facing-Issues-With-Leave-Management_-.png);
+    height: 100vh;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
+h1,h2,h3,h4{
+    color:black;
+}
+button.login.a{
+    color:white;
+    text-decoration: none;
+
+}
+section.card{
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    
+}
+.container{
+    text-align: center;
+    
+}
