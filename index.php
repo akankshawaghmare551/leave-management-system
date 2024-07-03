@@ -31,21 +31,20 @@
 // }
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $username= $_POST['username'];
-    $password= $_POST['password'];
+        $username= $_POST['username'];
+        $password= $_POST['password'];
 
-    $user = "SELECT * FROM `users` WHERE `username` = '$username' AND `password` = '$password'";
+        $user = "SELECT * FROM `users` WHERE `username` = '$username' AND `password` = '$password'";
 
-    $result = $conn->query($user);
-    echo "<pre>";
-    print_r($result);
-    echo "<pre>";
-    print_r($result->fetch_assoc());
-}else{
-    echo "no data posted";
-}
-?>
-
+        $result = $conn->query($user);
+        echo "<pre>";
+        print_r($result);
+        echo "<pre>";
+        print_r($result->fetch_assoc());
+    }else{
+        echo "no data posted";
+    }
+    ?>
 <section class="hero_banner d-flex align-item-center justify-content-center"style="padding-top:18px;" >
   <div class="container-fluide text-center">
     <h1 >Leave Management System</h1>
