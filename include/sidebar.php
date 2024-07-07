@@ -3,7 +3,7 @@
 
 <ul class="sidebar-nav" id="sidebar-nav">
 
-  <?php if (isadmin()) : ?>
+  <?php if (isAdmin()) : ?>
   <li class="nav-item">
     <a class="nav-link " href="../admin/dashboard.php">
       <i class="bi bi-grid"></i>
